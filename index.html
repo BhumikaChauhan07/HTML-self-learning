@@ -1,0 +1,25 @@
+<!-- <html> is a tag and the strat-in or opening tag, text/code in between and end-in or closing tag together create an element -->
+<!-- <html> tag is compulsory as everything in an HTML page lies as a part of this element -->
+<!-- An HTML page has 2 areas a) head section: metadata about page(not visible on page in the browser)  b)body section: consists of everything visible on page in the browser -->
+<!-- W3C provides standard for markup languages. This webpage is essentially not on web but on my computer(127.0.0.1:5500) according to its markup validation services I can upload this webpage on to the web if it compulsorily include DOCTYPE declaration, attributes of html tag such as lang and elements of head tag such as meta(and its attribute charset)-->
+<!DOCTYPE html>            <!-- Its is a declaration that specifies the type of document which is html in this case and the first statement of html file has to be this declaration -->
+<html lang ="en">                  <!-- lang attribute is used to specify the language of html webpage (here it is english) -->
+    <head>
+        <meta charset = "UTF-8">     <!-- this tag is to provide info about meta data and the attribute charset refers to the character set the html page will be using, UTF-8 being the standard one for all web pages -->
+        <title>First webpage</title>
+        <!-- style tag to introduce CSS properties( following is to generate dark mode)-->
+        <style>
+            html{
+                font-size: 22px
+            }
+            body{
+                background-color: #333;
+                color : whitesmoke;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello world</h1>                <!-- tag for heading (leaaser the number greater the heading) -->
+        <p>This is my first webpage.</p>                                <!-- paragraph tag for creating a paragraph -->
+    </body>
+</html>
